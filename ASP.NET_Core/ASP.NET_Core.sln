@@ -20,6 +20,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{534BA80E-EFA6-454E-869A-DBD821755A0D}"
 	ProjectSection(SolutionItems) = preProject
 		Entity.cs = Entity.cs
+		User.cs = User.cs
 	EndProjectSection
 EndProject
 Global
