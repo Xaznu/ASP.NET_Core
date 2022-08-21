@@ -25,6 +25,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{534BA8
 		Event.cs = Event.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{55D2DBB6-81AD-4E11-92E2-514AD5B87130}"
+	ProjectSection(SolutionItems) = preProject
+		IEventRepository.cs = IEventRepository.cs
+		IUserRepository.cs = IUserRepository.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +61,7 @@ Global
 		{7670A506-187E-4A2B-B27D-6233460AF006} = {B820E333-766D-4FC0-AB26-F8D479B2CD8E}
 		{8E8A2A5B-3D5F-4072-AF17-12C81469AB01} = {155DE5D4-09A9-4425-9C19-6CDEB9596945}
 		{534BA80E-EFA6-454E-869A-DBD821755A0D} = {82186A16-2303-4568-B696-F807DEEE3E40}
+		{55D2DBB6-81AD-4E11-92E2-514AD5B87130} = {82186A16-2303-4568-B696-F807DEEE3E40}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C67721D7-EAFD-45A5-B483-1F88F4437B8D}
