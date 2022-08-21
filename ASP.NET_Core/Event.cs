@@ -33,9 +33,11 @@ namespace Evento.Core.Domain
 
         public void AddTickets(int amount, decimal price)
         {
+            var seating = _tickets.Count + 1;
             for(var i=0; i<amount; i++)
             {
-                _tickets.Add(new Ticket());
+                _tickets.Add(new Ticket(this, seating, price));
+                seating++;
             }
         }
     }
