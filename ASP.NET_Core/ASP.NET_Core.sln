@@ -39,8 +39,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositorie
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{418E80E4-3DDB-4CEE-921F-0218B6CE3623}"
 	ProjectSection(SolutionItems) = preProject
+		DataInitializer.cs = DataInitializer.cs
 		EventService.cs = EventService.cs
+		IDataInitializer.cs = IDataInitializer.cs
 		IEventService.cs = IEventService.cs
+		IJwtHandler.cs = IJwtHandler.cs
+		ITicketService.cs = ITicketService.cs
+		IUserService.cs = IUserService.cs
+		JwtHandler.cs = JwtHandler.cs
+		TicketService.cs = TicketService.cs
 		UserService.cs = UserService.cs
 	EndProjectSection
 EndProject
