@@ -98,6 +98,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{9CCD925B-99CF-4CFF-817F-A0B7A9ECB4F3}"
 	ProjectSection(SolutionItems) = preProject
 		AppSettings.cs = AppSettings.cs
+		JwtSettings.cs = JwtSettings.cs
 	EndProjectSection
 EndProject
 Global
