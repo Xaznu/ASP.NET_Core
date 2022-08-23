@@ -20,7 +20,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using NLog.Extensions.Logging;
-using NLog.Web;
+using NLog.Web
 
 namespace Evento.Api
 {
