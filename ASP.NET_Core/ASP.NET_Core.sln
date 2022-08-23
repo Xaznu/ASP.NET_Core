@@ -34,6 +34,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{884009F5-65F4-4AC9-9DFE-C27CED92EFB6}"
 	ProjectSection(SolutionItems) = preProject
 		EventRepository.cs = EventRepository.cs
+		UserRepository.cs = UserRepository.cs
 	EndProjectSection
 EndProject
 Global
