@@ -60,6 +60,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{9E877BDF-2400-49AC-8032-AF46938DAFEA}"
 	ProjectSection(SolutionItems) = preProject
 		CreateEvent.cs = CreateEvent.cs
+		UpdateEvent.cs = UpdateEvent.cs
 	EndProjectSection
 EndProject
 Global
