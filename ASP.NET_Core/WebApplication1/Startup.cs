@@ -48,7 +48,7 @@ namespace Evento.Api
             services.AddMemoryCache();
             services.AddAuthorization(x => x.AddPolicy("HasAdminRole", p => p.RequireRole("admin")));
             // services.AddScoped<IEventRepository,EventRepository>();
-            services.AddScoped<IUserRepository, UserRepository>()
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IEventService, EventService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ITicketService, TicketService>();
