@@ -46,7 +46,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{41
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{CE6B3DC7-F9FC-4ABB-9A15-D2F250C49447}"
 	ProjectSection(SolutionItems) = preProject
+		AccountDto.cs = AccountDto.cs
+		EventDetailsDto.cs = EventDetailsDto.cs
 		EventDto.cs = EventDto.cs
+		JwtDto.cs = JwtDto.cs
+		TicketDetailsDto.cs = TicketDetailsDto.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mappers", "Mappers", "{475BB3C2-A57D-4042-BF01-16217A53F344}"
