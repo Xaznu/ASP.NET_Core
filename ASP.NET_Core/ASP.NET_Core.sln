@@ -41,6 +41,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{41
 	ProjectSection(SolutionItems) = preProject
 		EventService.cs = EventService.cs
 		IEventService.cs = IEventService.cs
+		UserService.cs = UserService.cs
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{CE6B3DC7-F9FC-4ABB-9A15-D2F250C49447}"
