@@ -70,6 +70,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", 
 		RepositoryExtensions.cs = RepositoryExtensions.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{B06416E6-96E8-467A-8702-B43265810A8E}"
+	ProjectSection(SolutionItems) = preProject
+		Login.cs = Login.cs
+		Register.cs = Register.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +115,7 @@ Global
 		{5C9FEE25-445E-4638-9EA9-A1005960F1BD} = {B820E333-766D-4FC0-AB26-F8D479B2CD8E}
 		{9E877BDF-2400-49AC-8032-AF46938DAFEA} = {5C9FEE25-445E-4638-9EA9-A1005960F1BD}
 		{75124D9D-3BA5-4A3C-8D0E-4704D6FD5836} = {B820E333-766D-4FC0-AB26-F8D479B2CD8E}
+		{B06416E6-96E8-467A-8702-B43265810A8E} = {5C9FEE25-445E-4638-9EA9-A1005960F1BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C67721D7-EAFD-45A5-B483-1F88F4437B8D}
