@@ -37,6 +37,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositorie
 		UserRepository.cs = UserRepository.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{418E80E4-3DDB-4CEE-921F-0218B6CE3623}"
+	ProjectSection(SolutionItems) = preProject
+		EventService.cs = EventService.cs
+		IEventService.cs = IEventService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTO", "DTO", "{CE6B3DC7-F9FC-4ABB-9A15-D2F250C49447}"
+	ProjectSection(SolutionItems) = preProject
+		EventDto.cs = EventDto.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +80,8 @@ Global
 		{534BA80E-EFA6-454E-869A-DBD821755A0D} = {82186A16-2303-4568-B696-F807DEEE3E40}
 		{55D2DBB6-81AD-4E11-92E2-514AD5B87130} = {82186A16-2303-4568-B696-F807DEEE3E40}
 		{884009F5-65F4-4AC9-9DFE-C27CED92EFB6} = {B820E333-766D-4FC0-AB26-F8D479B2CD8E}
+		{418E80E4-3DDB-4CEE-921F-0218B6CE3623} = {B820E333-766D-4FC0-AB26-F8D479B2CD8E}
+		{CE6B3DC7-F9FC-4ABB-9A15-D2F250C49447} = {B820E333-766D-4FC0-AB26-F8D479B2CD8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C67721D7-EAFD-45A5-B483-1F88F4437B8D}
