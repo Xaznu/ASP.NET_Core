@@ -14,7 +14,5 @@ public interface IEventRepository
 		Task UpdateAsync((Event @event);
 		Task DeleteAsync(Event @event);
 
-
-
 	}
 }
