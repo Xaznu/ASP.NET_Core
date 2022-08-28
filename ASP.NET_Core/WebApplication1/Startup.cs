@@ -27,7 +27,7 @@ namespace Evento.Api
     public class Startup
     {
         public IConfigurationRoot Configuration { get; }
-        public IContainer Container { get; private set; }
+        public IContainer Container { get; private set; 
 
         public Startup(IHostingEnvironment env)
         {
