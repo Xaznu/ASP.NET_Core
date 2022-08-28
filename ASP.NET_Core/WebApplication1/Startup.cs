@@ -17,7 +17,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
+using Microsoft.IdentityModel.Tokens
 using Newtonsoft.Json;
 using NLog.Extensions.Logging;
 using NLog.Web;
