@@ -22,7 +22,7 @@ using Newtonsoft.Json;
 using NLog.Extensions.Logging;
 using NLog.Web;
 
-namespace Evento.Api
+namespace Evento.Apii
 {
     public class Startup
     {
