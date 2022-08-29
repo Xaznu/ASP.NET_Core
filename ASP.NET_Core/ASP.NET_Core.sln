@@ -117,6 +117,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{56
 		UserServiceTests.cs = UserServiceTests.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{12287AC2-A429-49BA-B1B4-0645C03DC4F6}"
+	ProjectSection(SolutionItems) = preProject
+		EventsControllerTests.cs = EventsControllerTests.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +168,7 @@ Global
 		{EDBFFAC1-5575-4CCE-822B-51AC2B03B0E7} = {C2433C89-F131-430D-9C3A-1FEC01138CF7}
 		{6DCB913F-64CE-4D7D-85CF-E12A0AB3D9F7} = {67A3170C-BEAB-48E8-B66A-6DF65ED30984}
 		{56ECF83F-D095-4885-AFA2-D27B309EBBC8} = {67A3170C-BEAB-48E8-B66A-6DF65ED30984}
+		{12287AC2-A429-49BA-B1B4-0645C03DC4F6} = {EDBFFAC1-5575-4CCE-822B-51AC2B03B0E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C67721D7-EAFD-45A5-B483-1F88F4437B8D}
