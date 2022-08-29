@@ -31,7 +31,7 @@ namespace Evento.Tests.EndToEnd.Controllers
             var content = await response.Content.ReadAsStringAsync();
             var events = JsonConvert.DeserializeObject<IEnumerable<EventDto>>(content);
 
-            response.StatusCode.ShouldBeEquivalentTo(HttpStatusCode.OK);
+            response.StatusCode.ShouldBeEquivalentTo(HttpStatusCode.OK)
             events.Should().NotBeEmpty();
         }
     }
